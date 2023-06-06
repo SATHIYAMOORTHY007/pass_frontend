@@ -32,7 +32,7 @@ function Form() {
           values,
         )
         let token = value.data.token
-        console.log(token)
+
         window.sessionStorage.setItem('access_token', token)
         navigator('/home')
       } catch (error) {
