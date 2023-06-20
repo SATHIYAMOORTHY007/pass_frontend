@@ -27,7 +27,7 @@ function Reset() {
     onSubmit: async (values) => {
       try {
         const value = await axios.post(
-          `http://localhost:4000/auth/resetpassword/${params.id}/${params.token}`,
+          `https://pass-backend-37pg.onrender.com/auth/resetpassword/${params.id}/${params.token}`,
           values,
           {
             headers: {

@@ -22,7 +22,7 @@ function Forgetpassword() {
     onSubmit: async (values) => {
       try {
         const value = await axios.post(
-          `http://localhost:4000/auth/forgetpassword/`,
+          `https://pass-backend-37pg.onrender.com/auth/forgetpassword/`,
           values,
           {
             headers: {

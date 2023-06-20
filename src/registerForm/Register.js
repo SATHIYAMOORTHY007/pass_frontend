@@ -36,7 +36,7 @@ function Register() {
       setloading(true)
       try {
         const value = await axios.post(
-          'http://localhost:4000/auth/register/',
+          'https://pass-backend-37pg.onrender.com/auth/register/',
           values,
           {
             headers: {
